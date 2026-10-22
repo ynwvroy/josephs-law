@@ -5,8 +5,8 @@ export default defineNuxtConfig({
     head: {
       titleTemplate: (titleChunk) => {
         return titleChunk
-          ? `${titleChunk} | Muhoho-Law`
-          : "Muhoho-Law";
+          ? `${titleChunk} | Wangai & Co`
+          : "Wangai & Co";
       },
     },
   },
