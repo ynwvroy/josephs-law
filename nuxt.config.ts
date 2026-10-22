@@ -3,23 +3,13 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      titleTemplate: (titleChunk) => {
-        return titleChunk
-          ? `${titleChunk} | Wangai & Co`
-          : "Wangai & Co";
-      },
+      titleTemplate: '%s | Wangai & Co',
     },
   },
-
-  buildModules: ["@nuxtjs/dotenv"],
 
   ssr: false,
 
   css: ["@/assets/scss/index.scss", "@/assets/css/tailwind.css"],
-
-  ui: {
-    icons: ["lucide"],
-  },
 
   supabase: {
     redirect: false,
