@@ -57,14 +57,8 @@ const mainWrapperStyle = computed(() => {
       <NavigationSidebar :isOpen="true" @toggle="toggleSidebar" />
     </div>
 
-    <!-- Main Wrapper (Navbar + Page Content) -->
+    <!-- Main Wrapper (Page Content) -->
     <div class="main-wrapper" :style="mainWrapperStyle">
-      <!-- Navbar always has the toggle button -->
-      <NavigationNavbar
-        @toggleSidebar="toggleSidebar"
-        @openSearch="isSearchOpen = true"
-      />
-
       <!-- Page Content -->
       <main class="page-content p-6">
         <slot />
