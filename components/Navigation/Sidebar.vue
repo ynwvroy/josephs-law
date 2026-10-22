@@ -46,7 +46,7 @@ const sidebarItems = computed(() => getSidebarItems(userRole.value));
         class="text-lg font-semibold transition-opacity duration-200"
         :class="isOpen ? 'opacity-100' : 'opacity-0'"
       >
-        Muhoho-Law
+        Wangai & Co
       </span>
     </NuxtLink>
 
@@ -71,10 +71,10 @@ const sidebarItems = computed(() => getSidebarItems(userRole.value));
             ]"
           >
             <Icon :name="link.icon" class="w-5 h-5 flex-shrink-0" />
-            <!-- Only show label if sidebar is expanded -->
+            <!-- Always show label -->
             <span
-              v-if="isOpen"
-              class="transition-opacity duration-200 opacity-100"
+              class="transition-opacity duration-200"
+              :class="isOpen ? 'opacity-100' : 'opacity-0 hidden'"
             >
               {{ link.label }}
             </span>
