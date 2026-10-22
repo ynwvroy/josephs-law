@@ -37,7 +37,7 @@ const toggleTheme = () => {
         aria-label="Brand"
       >
         <img src="/la-logo.png" class="h-[50px]" />
-        <p class="text-sm leading-tight hidden md:block">Muhoho-Law</p>
+        <p class="text-sm leading-tight hidden md:block">Wangai-Law</p>
       </NuxtLink>
 
       <!-- Navigation Links -->
