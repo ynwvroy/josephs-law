@@ -40,7 +40,10 @@ const toggleTheme = () => {
       @click="emit('toggleSidebar')"
     />
 
-    <div class="flex-1"></div>
+    <div class="flex-1 flex items-center gap-2">
+      <img src="/la-logo.png" class="h-8" />
+      <span class="font-semibold">Wangai-Law</span>
+    </div>
 
     <div class="actions flex items-center gap-4 flex-shrink-0">
       <UButton
