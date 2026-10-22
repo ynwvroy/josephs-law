@@ -16,9 +16,9 @@ const { registerFormState, isLoading, register } = useAuthentication();
     <div class="w-full max-w-md">
       <UCard class="shadow-lg">
         <div class="flex flex-col items-center space-y-4">
-          <img src="/icon.svg" class="h-16" />
+          <img src="/la-logo.png" class="h-16" />
           <h2 class="text-xl font-bold">
-            Welcome to Muhoho-Law
+            Welcome to Wangai & Co
           </h2>
           <p class="text-gray-500 text-sm">Enter your details to continue</p>
         </div>

@@ -1,10 +1,10 @@
-# Muhoho-Law
+# Wangai & Co
 
-[Muhoho-Law GitHub Repository](https://github.com/guruwalker/muhoho-law)
+[Wangai & Co GitHub Repository](https://github.com/ynwvroy/josephs-law)
 
 ## Description
 
-Muhoho-Law is a law firm management system designed to streamline day-to-day activities for a typical SME law firm. This system allows management of clients, cases, documents, tasks, appointments, payments, and more, all in one place.
+Wangai & Co is a law firm management system designed to streamline day-to-day activities for a typical SME law firm. This system allows management of clients, cases, documents, tasks, appointments, payments, and more, all in one place.
 
 ## Installation
 
@@ -13,13 +13,13 @@ Follow these steps to get the system running on your local machine.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/guruwalker/muhoho-law
+   git clone https://github.com/ynwvroy/josephs-law
    ```
 
-2. **Navigate into the project directory::**
+2. **Navigate into the project directory:**
 
    ```bash
-   cd muhoho-law
+   cd josephs-law
    ```
 
 3. **Install the required dependencies:**
@@ -34,7 +34,7 @@ Follow these steps to get the system running on your local machine.
    npm run dev
    ```
 
-The system will now be running locally. Open your browser and navigate to http://localhost:3000 to start using it.
+The system will now be running locally. Open your browser and navigate to http://localhost:4000 to start using it.
 
 ## User Accounts for Testing
 
@@ -42,15 +42,15 @@ To test the system, use the following credentials:
 
 ### Admin
 
-- **Email:** shimz@gmail.com
-- **Password:** password
+- **Email:** joseph@gmail.com
+- **Password:** (your password)
 
 ### Lawyer
 
-- **Email:** kiprotichkibet@gmail.com
-- **Password:** password
+- **Email:** victor@gmail.com
+- **Password:** (your password)
 
 ### Client
 
-- **Email:** njerimwangi@gmail.com
-- **Password:** password
+- **Email:** mary@gmail.com
+- **Password:** (your password)
